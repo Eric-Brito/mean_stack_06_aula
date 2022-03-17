@@ -17,5 +17,5 @@ module.exports = function(){
 		})[0];
 		contato ? res.json(contato) : res.status(404).send('Contato não encontrado!');
 	};
-	return controller;
+	return controller; 
 };
